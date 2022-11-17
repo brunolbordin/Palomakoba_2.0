@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Escolha seu(s) produto(s):"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/cbGrupo"
+        android:layout_width="252dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <CheckBox
+            android:id="@+id/cbArroz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arroz (R$ 3,50)"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbCarne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carne (R$ 11,30)"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbPao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pão (R$ 2,20)"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbLeite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leite (R$ 5,50)"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbOvos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ovos (R$ 7,50)"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2B2222"
+        android:text="Total"
+        android:textColor="#F8F8F8"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#F6F4F4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbGrupo" />
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Valor:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnTotal"
+        app:layout_constraintTop_toBottomOf="@+id/cbGrupo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
