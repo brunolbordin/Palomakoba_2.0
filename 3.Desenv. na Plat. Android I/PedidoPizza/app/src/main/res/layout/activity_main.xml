@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cortelas"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410dp"
+        android:layout_height="103dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="145dp"
+        android:text="Faça seu pedido!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <RadioGroup
+        android:id="@+id/cbGrupo"
+        android:layout_width="329dp"
+        android:layout_height="246dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <CheckBox
+            android:id="@+id/cbCalabresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza Calabresa         R$70,00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbMarguerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza Marguerita       R$70,00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbPalmito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza Palmito             R$70,00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb4Queijos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza 4 Queijos          R$70,00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbModaCasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza Moda da Casa   R$70,00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="348dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbGrupo"
+        app:layout_constraintVertical_bias="0.465">
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/botoes"
+            android:text="limpar" />
+
+        <Button
+            android:id="@+id/btnPagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/botoes"
+            android:text="pagar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
