@@ -78,9 +78,9 @@ Bruno Bordin -> [LinkedIn](https://www.linkedin.com/in/brunolsbordin/)
   - **Comandos, Uso do Terminal, Interpretador de Comandos**
   - **Sistema de Arquivos, Processos, Segurança**
 - AOSP
-  - Baixar e Compilar
-  - Explorar o Código Fonte do AOSP
-  - Explorar o Android/Linux
+  - **Baixar e Compilar**
+  - **Explorar o Código Fonte do AOSP**
+  - **Explorar o Android/Linux**
 
 ## Fundamentos do AOSP
 - Tópicos Avançados:
