@@ -21,7 +21,7 @@ Bruno Bordin -> [LinkedIn](https://www.linkedin.com/in/brunolsbordin/)
 * [Fundamentos de Qualidade e Teste de Software](#fundamentos-de-qualidade-e-teste-de-software)
 * [Desenvolvimento Linux Embarcado](#desenvolvimento-linux-embarcado)
 * [Fundamentos do AOSP](#fundamentos-do-aosp)
-* [Tópicos Avançados do AOSP](#tpicos-avanados-do-aosp)
+* [Tópicos Avançados do AOSP](#tópicos-avançados-do-aosp)
 * [Hands-on](#hands-on)
 
 ## Fundamentos de Desenvolvimento de Software 1
