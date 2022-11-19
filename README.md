@@ -21,7 +21,7 @@ Bruno Bordin -> [LinkedIn](https://www.linkedin.com/in/brunolsbordin/)
 * [Fundamentos de Qualidade e Teste de Software](#fundamentos-de-qualidade-e-teste-de-software)
 * [Desenvolvimento Linux Embarcado](#desenvolvimento-linux-embarcado)
 * [Fundamentos do AOSP](#fundamentos-do-aosp)
-* [Hands-on](#hands-on)
+* [Hands-on](#tpicos-avanados-do-aosp)
 
 ## Fundamentos de Desenvolvimento de Software 1
 - Introdução à Engenharia de Software
@@ -83,9 +83,11 @@ Bruno Bordin -> [LinkedIn](https://www.linkedin.com/in/brunolsbordin/)
   - **Explorar o Android/Linux**
 
 ## Fundamentos do AOSP
-- Tópicos Avançados:
-  - **Configuração de Ambiente**
-  - **Desenvolvimento de novo produto**
+- Configuração de Ambiente
+- Desenvolvimento de novo produto
+
+## Tópicos Avançados do AOSP
+- Automação utilizando Android
 
 ## Hands-on
 - Aplicação prática:
